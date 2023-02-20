@@ -13,7 +13,7 @@
       in with pkgs; {
         devShells.default = mkShell {
           nativeBuildInputs = with nixpkgs; [ qmk ];
-
+          QMK_HOME = ./qmk_firmware;
         };
       });
 }
