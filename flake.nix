@@ -1,5 +1,5 @@
 {
-  description = "Build configuration from my qmk keyboards";
+  description = "Configuration and build from my qmk keyboards";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
